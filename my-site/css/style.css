@@ -1,0 +1,196 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    width: 50%;
+    margin: 0px auto 0px auto;
+    padding-top: 40px;
+    color: #3E065F;
+    font-family: 'Sacramento', cursive;
+    font-size: 65px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #916BBF;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #D47AE8;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.intro{
+    width: 50%;
+    margin: 10px auto 10px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #3E065F;
+    font-weight: normal;
+}
+span{
+    text-decoration: underline;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+
+}
+.top-container{
+    position: relative;
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 590px;
+}
+.my-photo{
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    background-color: #9ba5af;
+}
+.planet{
+    height: 200px;
+    position: absolute;
+    right: 30px;
+}
+.space-shuttle{
+    height: 180px;
+    position: absolute;
+    left: 135px;
+    top: 75px;
+    
+}
+.astronaut{
+    padding-bottom: 0px;
+    position: absolute;
+    top: 273px;
+    right: 250px;
+    left: 350px;
+}
+.profile{
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+hr{
+    border-top-style: dotted;
+    padding-bottom: 0px;
+    width: 7%;
+    color: #73e1e6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-width: 7px 0 0 0;
+}
+.skill-row{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+    
+}
+.coding{
+    width: 25%;
+    border-radius: 100%;
+    background-color: lightgray;
+    float:left;
+    margin-right: 30px;
+}
+.gaming{
+    width: 25%;
+    border-radius: 100%;
+    background-color: black;
+    float: right;
+    margin-left: 30px;
+}
+.skill{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #D47AE8;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.contact-me{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+
+.btn:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.btn:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.bottom-container{
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 170px;
+}
+.footer-link{
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    top: 30%;
+    color: #FFC4E1;
+}
+.end-note{
+    position: relative;
+    top: 50%;
+    color: #FEFBF3;
+}
+
+
+
+
